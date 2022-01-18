@@ -1,0 +1,216 @@
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/* Common Styles */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    background-color: #ffffff;
+    width: 1100px;
+    padding: 30px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+
+/* ------------
+   Header Styles
+   ------------ */
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+}
+.headaer .logo{
+    font-size: 24px;
+    font-weight: 700px;
+}
+.headaer .menu{
+    font-size: 16px;
+    font-weight: 600px;
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    display: flex;
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    padding-right: 10px;
+}
+
+/* -----------
+    Hero Section
+    ------------ */
+.hero-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.section-detiles h1{
+    font-size: 52px;
+    font-weight: 700px;
+    color: #3A3A3A;
+    margin: 0;
+    padding: 0;
+}
+.section-detiles p{
+    font-size: 16px;
+    font-weight: 600px;
+    color: #3A3A3A;
+    margin: 0;
+    padding: 10px 0px;
+}
+.button .link-button{
+    background: #E02C6D;
+    padding: 10px 24px;
+    border-radius: 41px;
+    margin-top: 40px;
+    align-items: center;
+
+}
+.button a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400px;
+
+}
+.image img{
+    width: 70%;
+}
+/* Logos Styles */
+hr{
+    width: 90%;
+    height: 3px;
+    background-color: gray;
+    margin: 20px ;
+}
+.logos{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+
+    align-items: center;
+
+}
+.logos svg img{
+    height: 25px !important;
+    width: 100px !important;
+    align-items: center;
+}
+
+
+
+/* -------------
+    Collection
+    ------------- */
+.popular .section-name{
+    font-size: 28px;
+    font-weight: 600px;
+    color: #18191F;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.collection{
+    background-color: #F0F0F0;
+    width: 230px;
+    height: 375px;
+    padding: 20px;
+    margin: 2px auto;
+}
+.collection .image{
+    width: 300px;
+}
+
+.detiles .title{
+    color: #18191F;
+    font-size: 28px;
+    font-weight: 500px;
+    padding: 0;
+    margin: 0;
+}
+.detiles .price{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 24px;
+    font-weight: 500px;
+    margin: 0;
+    padding: 0;
+}
+.detiles .ratting{
+    font-size: 14px;
+    color: #E02C6D;
+    margin: 0;
+    padding: 5px 1px;
+}
+.detiles .description{
+    font-size: 14px;
+    color: #787885;
+    padding: 0;
+    margin: 0;
+}
+.see-more{
+    padding: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+.see-more a{
+    text-decoration: none;
+    color: #E02C6DDE;
+    font-size: 18px;
+    font-weight: 500px;   
+}
+
+/* --------
+    products area
+    ------------ */
+.products{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+}
+.text .title{
+    color: #0A0826;
+    font-size: 38px;
+    font-weight: 800px;
+    padding: 0;
+    margin: 0;
+}
+.description{
+    font-size: 16;
+    color: #6C6C6C;
+}
+.joinnow-btn a{
+    background-color: #E02C6D;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/* Footer */
+.footer-area{
+    background-color: #0A0826;
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+
+}
+.footer-area .title{
+    font-size: 24px;
+}
+.footer-area .copyright{
+    font-size: 14px;
+}
+.icon i{
+    padding: 10px;
+}
