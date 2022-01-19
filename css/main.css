@@ -124,7 +124,7 @@ hr{
 }
 .collection{
     background-color: #F0F0F0;
-    width: 230px;
+    width: 200px;
     height: 375px;
     padding: 20px;
     margin: 2px auto;
@@ -213,4 +213,53 @@ hr{
 }
 .icon i{
     padding: 10px;
+}
+
+
+/* Responsive */
+@media only screen and (max-width: 688px) {
+    .header{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .hero-section{
+        width: 500px;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    hr{
+        display:none;
+    }
+    .logos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        grid-gap: 10px;
+    }
+    .collections{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .see-more{
+        justify-content: center;
+    }
+    .products{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .text{
+        width: 400px;
+    }
+    .footer-area{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .footer .footer-area{
+        align-items: center;
+    }
+
 }
